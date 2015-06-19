@@ -2,8 +2,8 @@ package view;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
+import me.alfredis.collectionsystem.datastructure.Configuration;
 import model.ConfigBean;
-import model.Configuration;
 import util.Utility;
 
 import javax.swing.*;
@@ -58,6 +58,7 @@ public class MyFrame extends JFrame {
                 JFileChooser jfc = new JFileChooser();  //新建一个选择文件夹的类型
                 jfc.setDialogTitle("导出配置文件");
                 jfc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                jfc.setApproveButtonText("导出");
                 if (jfc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) { //开始选择路径
                     String path = jfc.getSelectedFile().getAbsolutePath() + "/config.ser";
                     System.out.println(path);

@@ -1,4 +1,4 @@
-package model;
+package me.alfredis.collectionsystem.datastructure;
 import java.io.Serializable;
 
 /**

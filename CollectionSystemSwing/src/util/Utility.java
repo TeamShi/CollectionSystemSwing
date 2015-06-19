@@ -1,7 +1,7 @@
 package util;
 
+import me.alfredis.collectionsystem.datastructure.Configuration;
 import model.ConfigBean;
-import model.Configuration;
 
 import java.io.File;
 import java.io.FileOutputStream;
