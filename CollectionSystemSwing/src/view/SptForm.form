@@ -116,7 +116,7 @@
         </constraints>
         <properties>
           <background color="-6047008"/>
-          <text value="黏性土的稠度与标准贯入击数的关系"/>
+          <text value="砂类土的稠度与标准贯入击数的关系"/>
         </properties>
       </component>
       <component id="a8845" class="javax.swing.JLabel">
@@ -184,7 +184,7 @@
         </constraints>
         <properties>
           <background color="-6047008"/>
-          <text value="黏性土的稠度与标准贯入击数的关系"/>
+          <text value="粉土的稠度与标准贯入击数的关系"/>
         </properties>
       </component>
       <component id="6ae3c" class="javax.swing.JLabel">

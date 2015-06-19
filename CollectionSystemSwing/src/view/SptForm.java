@@ -45,11 +45,11 @@ public class SptForm {
                 "稠度:       " + "\t    流动" + "\t软塑" + "\t  软可塑" + "\t  硬可塑" + "\t     硬塑" + "\t            坚硬\t";
         this.table1Area.setText(area1);
 
-        String area2 = "标准贯入击数:" + "    N≤" + this.table2Field1.getText() + "\t\t" + this.table2Field1.getText() + "<N≤" + this.table2Field2.getText() + "\t" + this.table2Field2.getText() + "<N≤" + this.table1Field3.getText() + "\t\t" + "N>" + this.table1Field3.getText() + "\n" +
+        String area2 = "标准贯入击数:" + "    N≤" + this.table2Field1.getText() + "\t\t" + this.table2Field1.getText() + "<N≤" + this.table2Field2.getText() + "\t" + this.table2Field2.getText() + "<N≤" + this.table2Field3.getText() + "\t" + "N>" + this.table3Field3.getText() + "\n" +
                 "稠度:       " + "\t     松散\t" + "\t稍密\t" + "\t中密\t" + "\t密实\t";
         this.table2Area.setText(area2);
 
-        String area3 = "标准贯入击数:" + "    N≤" + this.table3Field1.getText() + "\t\t" + this.table3Field1.getText() + "<N≤" + this.table3Field2.getText() + "\t" + this.table3Field2.getText() + "<N≤" + this.table1Field3.getText() + "\t\t" + "N>" + this.table1Field3.getText() + "\n" +
+        String area3 = "标准贯入击数:" + "    N≤" + this.table3Field1.getText() + "\t\t" + this.table3Field1.getText() + "<N≤" + this.table3Field2.getText() + "\t" + this.table3Field2.getText() + "<N≤" + this.table3Field3.getText() + "\t" + "N>" + this.table3Field3.getText() + "\n" +
                 "稠度:       " + "\t     松散\t" + "\t稍密\t" + "\t中密\t" + "\t密实\t";
         this.table3Area.setText(area3);
 
@@ -83,7 +83,7 @@ public class SptForm {
         this.table3Field1.getDocument().addDocumentListener(documentListener);
         this.table3Field2.getDocument().addDocumentListener(documentListener);
         this.table3Field3.getDocument().addDocumentListener(documentListener);
-        
+
     }
 
     public JFormattedTextField getTable1Field2() {
@@ -318,7 +318,7 @@ public class SptForm {
         formPanel.add(table1Field3, cc.xy(7, 3, CellConstraints.FILL, CellConstraints.DEFAULT));
         table2Title = new JLabel();
         table2Title.setBackground(new Color(-6047008));
-        table2Title.setText("黏性土的稠度与标准贯入击数的关系");
+        table2Title.setText("砂类土的稠度与标准贯入击数的关系");
         formPanel.add(table2Title, cc.xyw(1, 7, 5));
         final JLabel label4 = new JLabel();
         label4.setText("贯入击数参数一");
@@ -339,7 +339,7 @@ public class SptForm {
         formPanel.add(table2Field3, cc.xy(7, 9, CellConstraints.FILL, CellConstraints.DEFAULT));
         table3Title = new JLabel();
         table3Title.setBackground(new Color(-6047008));
-        table3Title.setText("黏性土的稠度与标准贯入击数的关系");
+        table3Title.setText("粉土的稠度与标准贯入击数的关系");
         formPanel.add(table3Title, cc.xyw(1, 13, 5));
         final JLabel label7 = new JLabel();
         label7.setText("贯入击数参数一");
