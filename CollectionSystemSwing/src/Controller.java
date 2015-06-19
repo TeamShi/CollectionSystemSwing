@@ -4,8 +4,8 @@ import javax.swing.*;
 public class Controller {
 
     protected static MyFrame frame;
-    private static int FRAME_WIDTH = 800;
-    private static int FRAME_HEIGHT = 620;
+    private static int FRAME_WIDTH = 780;
+    private static int FRAME_HEIGHT = 680;
 
     public static void init(boolean isVisible) {
         try {
