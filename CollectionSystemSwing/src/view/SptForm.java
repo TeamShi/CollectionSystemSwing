@@ -41,8 +41,8 @@ public class SptForm {
     private JFormattedTextField table1Field5;
 
     private void updateAreas() {
-        String area1 = "标准贯入击数:" + "    N≤" + this.table1Field1.getText() + "\t" + this.table1Field1.getText() + "<N≤" + this.table1Field2.getText() + "\t  " + this.table1Field2.getText() + "<N≤" + this.table1Field3.getText() + "\t" + this.table1Field3.getText() + "<N≤" + this.table1Field4.getText() + "\t   " + this.table1Field4.getText() + "<N≤" + this.table1Field5.getText() + "       " + "N>" + this.table1Field5.getText() + "\n" +
-                "稠度:       " + "\t    流动" + "\t软塑" + "\t  软可塑" + "\t  硬可塑" + "\t     硬塑" + "\t            坚硬\t";
+        String area1 = "标准贯入击数:" + "    N≤" + this.table1Field1.getText() + "\t\t" + this.table1Field1.getText() + "<N≤" + this.table1Field2.getText() + "\t\t" + this.table1Field2.getText() + "<N≤" + this.table1Field3.getText() + "\t\t" + this.table1Field3.getText() + "<N≤" + this.table1Field4.getText() + "\t   " + this.table1Field4.getText() + "<N≤" + this.table1Field5.getText() + "       " + "N>" + this.table1Field5.getText() + "\n" +
+                "稠度:       " + "\t     流动\t" + "\t软塑\t" + "\t软可塑\t" + "\t硬可塑\t" + "\t硬塑" + "\t坚硬\t";
         this.table1Area.setText(area1);
 
         String area2 = "标准贯入击数:" + "    N≤" + this.table2Field1.getText() + "\t\t" + this.table2Field1.getText() + "<N≤" + this.table2Field2.getText() + "\t" + this.table2Field2.getText() + "<N≤" + this.table2Field3.getText() + "\t" + "N>" + this.table3Field3.getText() + "\n" +

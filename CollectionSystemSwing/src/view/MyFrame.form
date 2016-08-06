@@ -58,6 +58,7 @@
         </constraints>
         <properties>
           <background color="-6047008"/>
+          <enabled value="true"/>
         </properties>
         <border type="none"/>
         <children/>

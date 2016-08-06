@@ -9,7 +9,8 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 /**
- * Created by jishshi on 2015/6/18.
+ * Created by
+ * jishshi on 2015/6/18.
  */
 public class Utility {
     public static void model2bean(ConfigBean configBean, Configuration configuration){
@@ -51,6 +52,9 @@ public class Utility {
         configBean.setTable8Field2(String.valueOf(configuration.getDstTable2_63_8_Argument2()));
         configBean.setTable8Field3(String.valueOf(configuration.getDstTable2_63_8_Argument3()));
 
+        // template
+        configBean.setTemplateDictionary(configuration.getTemplateDictionary());
+
     }
 
     public static void bean2model(Configuration configuration, ConfigBean configBean) {
@@ -71,11 +75,11 @@ public class Utility {
 
 
         //dst
-        configuration.setDstTable1_63_5_Argument2(Double.parseDouble(configBean.getTable4Field1()));;//not override arg1
+        configuration.setDstTable1_63_5_Argument2(Double.parseDouble(configBean.getTable4Field1()));//not override arg1
         configuration.setDstTable1_63_5_Argument3(Double.parseDouble(configBean.getTable4Field2()));
         configuration.setDstTable1_63_5_Argument4(Double.parseDouble(configBean.getTable4Field3()));
 
-        configuration.setDstTable1_120_Argument2(Double.parseDouble(configBean.getTable5Field1()));;//not override arg1
+        configuration.setDstTable1_120_Argument2(Double.parseDouble(configBean.getTable5Field1()));//not override arg1
         configuration.setDstTable1_120_Argument3(Double.parseDouble(configBean.getTable5Field2()));
         configuration.setDstTable1_120_Argument4(Double.parseDouble(configBean.getTable5Field3()));
         configuration.setDstTable1_120_Argument5(Double.parseDouble(configBean.getTable5Field4()));
@@ -92,6 +96,7 @@ public class Utility {
         configuration.setDstTable2_63_8_Argument1(Double.parseDouble(configBean.getTable8Field1()));
         configuration.setDstTable2_63_8_Argument2(Double.parseDouble(configBean.getTable8Field2()));
         configuration.setDstTable2_63_8_Argument3(Double.parseDouble(configBean.getTable8Field3()));
+        configuration.setTemplateDictionary(configBean.getTemplateDictionary());
 
     }
 

@@ -41,6 +41,10 @@ public class MyFrame extends JFrame {
 
         final DstForm dstForm = new DstForm();
         tabbedPane1.addTab("动力触探实验", dstForm.getFormPanel());
+
+        final TplForm tplForm = new TplForm();
+        tabbedPane1.addTab("名称及岩性模板", tplForm.getFormPanel());
+
         tabbedPane1.setVisible(true);
         myPanel.setVisible(true);
 
@@ -51,6 +55,7 @@ public class MyFrame extends JFrame {
         Utility.model2bean(configBean, configuration);
         sptForm.setData(configBean);
         dstForm.setData(configBean);
+        tplForm.setData(configBean);
 
         exportBtn.addActionListener(new ActionListener() {
             @Override

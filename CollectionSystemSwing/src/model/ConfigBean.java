@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Map;
+
 public class ConfigBean {
     private String table1Field2;
     private String table1Field1;
@@ -29,6 +31,7 @@ public class ConfigBean {
     private String table8Field2;
     private String table8Field1;
     private String table8Field3;
+    private Map<String,String> templateDictionary;
 
     public ConfigBean() {
     }
@@ -255,5 +258,13 @@ public class ConfigBean {
 
     public void setTable8Field3(final String table8Field3) {
         this.table8Field3 = table8Field3;
+    }
+
+    public Map<String, String> getTemplateDictionary() {
+        return templateDictionary;
+    }
+
+    public void setTemplateDictionary(Map<String, String> templateDictionary) {
+        this.templateDictionary = templateDictionary;
     }
 }

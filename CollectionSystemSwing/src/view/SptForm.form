@@ -34,7 +34,7 @@
     <colspec value="left:4dlu:noGrow"/>
     <colspec value="fill:66px:noGrow"/>
     <constraints>
-      <xy x="20" y="14" width="807" height="442"/>
+      <xy x="20" y="14" width="821" height="442"/>
     </constraints>
     <properties>
       <background color="-6047008"/>
@@ -253,7 +253,9 @@
           <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
+          <background color="-5526613"/>
           <editable value="false"/>
+          <enabled value="false"/>
           <text value=""/>
         </properties>
       </component>
@@ -304,7 +306,9 @@
           <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
+          <background color="-5526613"/>
           <editable value="false"/>
+          <enabled value="false"/>
           <text value=""/>
         </properties>
       </component>
@@ -316,7 +320,9 @@
           <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
+          <background color="-5526613"/>
           <editable value="false"/>
+          <enabled value="false"/>
           <text value=""/>
         </properties>
       </component>

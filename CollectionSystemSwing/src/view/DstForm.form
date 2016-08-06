@@ -270,8 +270,9 @@
               <forms defaultalign-horz="false" defaultalign-vert="false"/>
             </constraints>
             <properties>
-              <background color="-1"/>
+              <background color="-5526613"/>
               <editable value="false"/>
+              <enabled value="false"/>
               <text value=""/>
             </properties>
           </component>
@@ -301,8 +302,9 @@
               <forms defaultalign-horz="false" defaultalign-vert="false"/>
             </constraints>
             <properties>
-              <background color="-1"/>
+              <background color="-5526613"/>
               <editable value="false"/>
+              <enabled value="false"/>
               <text value=""/>
             </properties>
           </component>
@@ -314,8 +316,9 @@
               <forms defaultalign-horz="false" defaultalign-vert="false"/>
             </constraints>
             <properties>
-              <background color="-1"/>
+              <background color="-5526613"/>
               <editable value="false"/>
+              <enabled value="false"/>
               <text value=""/>
             </properties>
           </component>
@@ -493,8 +496,9 @@
               <forms defaultalign-horz="false" defaultalign-vert="false"/>
             </constraints>
             <properties>
-              <background color="-1"/>
+              <background color="-5526613"/>
               <editable value="false"/>
+              <enabled value="false"/>
               <text value=""/>
             </properties>
           </component>
@@ -506,8 +510,9 @@
               <forms defaultalign-horz="false" defaultalign-vert="false"/>
             </constraints>
             <properties>
-              <background color="-1"/>
+              <background color="-5526613"/>
               <editable value="false"/>
+              <enabled value="false"/>
               <text value=""/>
             </properties>
           </component>
