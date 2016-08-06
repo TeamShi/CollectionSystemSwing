@@ -1,14 +1,17 @@
-package me.alfredis.collectionsystem.datastructure;
+package com.teamshi.collectionsystem3.datastructure;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by jishshi on 2015/6/16.
+ * Created by
+ * jishshi on 2015/6/16.
  */
 
 
 public class Configuration  implements Serializable {
+    private static final long serialVersionUID = 5060008608521544149L;
+
     private  double sptTable1Argument1 = 2;
     private  double sptTable1Argument2 = 4;
     private  double sptTable1Argument3 = 7;
@@ -45,7 +48,7 @@ public class Configuration  implements Serializable {
     private  double dstTable2_63_8_Argument1 = 5;
     private  double dstTable2_63_8_Argument2 = 6;
     private  double dstTable2_63_8_Argument3 = 9;
-    private Map<String, String> templateDictionary = new HashMap();
+    private Map<String, String> templateDictionary = new HashMap<>();
 
     public  double getSptTable1Argument1() {
         return sptTable1Argument1;

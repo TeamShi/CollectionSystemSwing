@@ -117,4 +117,8 @@ public class TplForm {
         myList.setModel(listModel);
 
     }
+
+    public void getData(ConfigBean configBean) {
+        configBean.setTemplateDictionary(templateDictionary);
+    }
 }

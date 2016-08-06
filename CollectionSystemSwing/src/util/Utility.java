@@ -1,6 +1,6 @@
 package util;
 
-import me.alfredis.collectionsystem.datastructure.Configuration;
+import com.teamshi.collectionsystem3.datastructure.Configuration;
 import model.ConfigBean;
 
 import java.io.File;

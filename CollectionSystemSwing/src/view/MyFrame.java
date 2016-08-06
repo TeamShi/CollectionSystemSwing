@@ -2,7 +2,7 @@ package view;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
-import me.alfredis.collectionsystem.datastructure.Configuration;
+import com.teamshi.collectionsystem3.datastructure.Configuration;
 import model.ConfigBean;
 import util.Utility;
 
@@ -69,6 +69,7 @@ public class MyFrame extends JFrame {
                     System.out.println(path);
                     sptForm.getData(configBean);
                     dstForm.getData(configBean);
+                    tplForm.getData(configBean);
 
                     Utility.bean2model(configuration, configBean);
                     if (Utility.exportConfig(configuration, path)) {
